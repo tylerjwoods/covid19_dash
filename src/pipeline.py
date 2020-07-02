@@ -31,4 +31,4 @@ if __name__ == '__main__':
         main()
 
         # Wait 24 hours = 86400 seconds
-        time.sleep(86400)
+        # time.sleep(86400)
