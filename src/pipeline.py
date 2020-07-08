@@ -1,7 +1,6 @@
+# import necessary packages
 import requests
 import pandas as pd
-import numpy as np
-import time
 
 def main():
 
@@ -24,11 +23,4 @@ def main():
     df.to_pickle('data/all_data.csv')
 
 if __name__ == '__main__':
-
-    while True:
-
-        # scrape the data using main function
-        main()
-
-        # Wait 24 hours = 86400 seconds
-        # time.sleep(86400)
+    main()
